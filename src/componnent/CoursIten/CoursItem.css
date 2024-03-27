@@ -1,0 +1,65 @@
+.coursCardContainer{
+    width: 100%;
+    overflow: hidden;
+    border-radius: 20px 20px 10px 10px ;
+    box-shadow: 0px 3px 10px rgba(119, 133, 160, 0.411);
+}
+.coursCardContainer .coursImage {
+    position: relative;
+}
+.coursCardContainer .coursImage img{
+    width: 100%;
+    border-radius: 20px;
+}
+.coursCardContainer .coursImage p{
+    position: absolute;
+    top: 20px;
+    left: 0px;
+    border-radius: 0px 10px 10px 0px;
+    padding: 0px 5px;
+    background-color: white;
+    color: #3b3b3b;
+}
+.coursCardContainer .coursImage p > span{
+    font-size: 15px;
+    padding: 0px 3px;
+}
+.coursCardContainer :where(.coursBody , .coursTeacher , .cousrFooter){
+    padding: 0px 15px;
+}
+.coursCardContainer .coursBody{
+    margin-top: 30px;
+}
+.coursCardContainer .coursBody p{
+    color: #7a7a7a;
+    font-size: 14px;
+}
+.coursCardContainer .coursTeacher{
+    color: #3b3b3b;
+}
+
+.coursCardContainer .cousrFooter p{
+    margin-bottom: 0px;
+}
+.coursCardContainer .cousrFooter p svg{
+    background-color: gray;
+    color: white;
+    border-radius: 50%;
+    padding: 2px;
+}
+.coursCardContainer .cousrFooter p b{
+    color: gray;
+}
+.coursCardContainer .cousrFooter button{
+    all: unset;
+    margin: 0px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: rgb(43, 137, 192);
+    color: white;
+    cursor: pointer;
+    transition: all .5s;
+}
+.coursCardContainer .cousrFooter button:hover{
+    background-color: rgb(58, 160, 219);
+}

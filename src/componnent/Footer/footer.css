@@ -1,0 +1,12 @@
+footer{
+    width: 100%;
+}
+.myfooter{
+    background-color: #fff6a8;
+    height: 60px;
+    position: relative;
+}
+svg {
+    position: relative;
+    top: 2px;
+}

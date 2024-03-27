@@ -1,0 +1,41 @@
+@font-face {
+  font-family: "lalezar";
+  src: url("../../public/font/lalezar.ttf");
+}
+@font-face {
+  font-family: "iransanse";
+  src: url("../../public/font/Iranian-Sans.ttf");
+}
+@font-face {
+  font-family: "yekan";
+  src: url("../../public/font/Yekan.ttf");
+}
+@font-face {
+  font-family: "vazir";
+  src: url("../../public/font/Vazir.ttf"),
+       url("../../public/font/Vazir.woff");
+}
+* {
+  box-sizing: border-box;
+  font-family: vazir;
+  margin: 0px;
+  padding: 0px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.lalezar{
+  font-family: lalezar;
+}
+.iransanse{
+  font-family: iransanse;
+}
+.yekan{
+  font-family: yekan;
+}

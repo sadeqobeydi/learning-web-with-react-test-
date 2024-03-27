@@ -1,0 +1,17 @@
+header{
+    background-color: #eee;
+
+}
+header .conentimage{
+    background-color: white;
+    border-radius:26% 74% 70% 30% / 68% 29% 71% 32%  ;
+}
+
+svg.mysvg{
+    position: relative;
+    top: -10px;
+
+}
+header p{
+    color: #551274;
+}

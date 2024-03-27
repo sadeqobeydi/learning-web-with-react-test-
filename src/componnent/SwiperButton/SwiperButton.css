@@ -1,0 +1,15 @@
+.contentSwiperbhtn{
+    text-align: center;
+}
+.contentSwiperbhtn .btn-swiper {
+    border-radius: 50%;
+    padding: 10px;
+    background-color: lightgray;
+    transition: all 0.5s;
+    border: none;
+    color: rgb(0, 71, 138);
+    margin: 0px 5px;
+}
+.contentSwiperbhtn .btn-swiper:hover{
+    background-color: lightblue;
+}

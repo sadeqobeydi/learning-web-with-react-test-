@@ -1,0 +1,34 @@
+.card{
+    border: none !important;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 6px 12px -2px, rgba(0, 0, 0, 0.3) 0px 3px 7px -3px;
+    user-select: none;
+    transition: all 0.5s;
+}
+
+.card-text {
+    color: #535353 !important;
+}
+.card a{
+    text-decoration: none;
+    color: #4d385a ;
+    font-weight: bolder;
+}
+.card span.read-more {
+    padding: 8px;
+    cursor: pointer;
+}
+.card span.read-more:hover {
+    color: rgb(221, 64, 90);
+}
+.card span.read-more span{
+    margin: 0px 5px;
+}
+
+span.writter-info{
+    font-size: 14px;
+}
+
+svg{
+    transform: translateY(-3px);
+    margin: 0px 2px;
+}

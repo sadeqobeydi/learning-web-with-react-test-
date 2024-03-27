@@ -1,0 +1,34 @@
+.topBox{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 40px;
+}
+
+.searchInput , .searchButton{
+    all:unset;
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+.searchButton{
+    background-color: lightgray;
+    border-radius: 10px 0px 0px 10px ;
+}
+.searchInput{
+    border-radius: 0px 10px 10px 0px;
+}
+
+.accordion-item{
+    border: none;
+    border-radius: 7px;
+    margin-bottom: 20px;
+    overflow: hidden;
+    box-shadow: 0px 7px 10px rgba(78, 78, 78, 0.185);
+}
+.accordion-button:focus {
+    box-shadow: none !important;
+}
+.sort-icons{
+    margin: 0px 15px;
+}

@@ -1,0 +1,21 @@
+.cardContainer{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 15px;
+    margin-top: 90px;
+    padding: 15px;
+    position: sticky;
+    top: 90px;
+}
+.cardContainer .cordHeader img{
+    width: 100%;
+    border-radius: 10px;
+    position: relative;
+    bottom: 80px;
+}
+
+.cardContainer .cordBody p svg{
+    margin: 0px 5px;
+}
+.cardContainer .cordFooter button{
+    margin: 0px 10px;
+} 
