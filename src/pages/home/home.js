@@ -8,11 +8,15 @@ import CoursItem from "../../componnent/CoursIten/CoursItem"
 import axios from "axios"
 import { useEffect, useState } from "react"
 import './home.css'
+import ComentImage from  "./coment.jpg"
+import Coment from '../../componnent/coment/Coment'
 
 // code imported with swuper pakage 
 import { Swiper, SwiperSlide } from 'swiper/react';
 import {Autoplay} from 'swiper/modules';
 import 'swiper/css';
+import 'swiper/css/effect-cards';
+import { EffectCards } from 'swiper/modules';
 
 
 function Home (){
@@ -97,6 +101,46 @@ function Home (){
                         <SwiperButton/>
                     </Swiper>
                 </Row>
+                <section className="coment-content">
+                    <h3 className="yekan my-3 fs-1 pe-none">نظرات کاربران</h3>
+                    <Row>
+                        <Col md="6" >
+                            <img src={ComentImage} alt=""/>
+                        </Col>
+                        <Col md="6" className="pt-lg-5 px-5 px-lg-4">
+                        <Swiper
+                            effect={'cards'}
+                            grabCursor={true}
+                            modules={[EffectCards]}
+                            className="mySwiper"
+                            autoplay={{
+                                delay: 2500,
+                                disableOnInteraction: false,
+                            }} 
+                        >
+                            <SwiperSlide>
+                                <Coment bgColor="blue" />
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Coment bgColor="green"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Coment bgColor="purple"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Coment bgColor="yellow"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Coment bgColor="red"/>
+                            </SwiperSlide>
+                            <SwiperSlide>
+                                <Coment bgColor="gray"/>
+                            </SwiperSlide>
+                            <SwiperButton/>
+                        </Swiper>
+                        </Col>
+                    </Row>
+                </section>
             </Container>
         </>
     )

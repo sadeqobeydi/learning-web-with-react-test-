@@ -2,11 +2,12 @@ footer{
     width: 100%;
 }
 .myfooter{
-    background-color: #fff6a8;
+    background-color: #eee;
     height: 60px;
     position: relative;
 }
-svg {
+svg.footersvg{
     position: relative;
-    top: 2px;
+    top: 20px;
 }
+

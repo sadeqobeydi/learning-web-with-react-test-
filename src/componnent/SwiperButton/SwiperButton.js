@@ -6,7 +6,7 @@ function SwiperButton (){
 
     const swiper = useSwiper();
     return(
-        <div className="contentSwiperbhtn">
+        <div className="contentSwiperbhtn pt-2">
 
             <button
             onClick={() => {swiper.slidePrev()}}

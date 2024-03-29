@@ -1,0 +1,22 @@
+.coment-box{
+    border-radius: 15px;
+}
+.coment-box.blue{
+    background-color: #d2d9ff;
+}
+.coment-box.green{
+    background-color: #d2ffd8;
+}
+.coment-box.purple{
+    background-color: #fbd2ff;
+}
+.coment-box.yellow{
+    background-color: #fffed2;
+}
+.coment-box.red{
+    background-color: #ffd2d2;
+}
+.coment-box.gray{
+    background-color: #d4d4d4;
+}
+
