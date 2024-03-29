@@ -6,8 +6,8 @@ import About from "./pages/about/About"
 import Articles from "./pages/Articles/Articles"
 import MyNavbar from "./componnent/Navbar/MyNavbar"
 import Footer from "./componnent/Footer/Footer"
-import Courses from "./pages/courses/Courses"
 import Article from "./pages/article/Article"
+import Courses from "./pages/courses/Courses"
 
 
 function App (){
@@ -22,6 +22,8 @@ function App (){
                 <Route path="/about" element= {<About/>}/>
                 <Route path="/courses" element = {<Courses/>}/>
                 <Route path="/articles" element= {<Articles/>}/>
+                <Route path="/courses" element= {<Courses/>}/>
+                
             </Routes>
             <Footer/>
         </BrowserRouter>
