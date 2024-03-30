@@ -43,18 +43,21 @@ function Articles(){
 
     return(
         <>
-            <div className="topBox my-4">
-                <h1 className=" fs-2">لیست مقالات</h1>
-                <div className="searchBox">
+
+            <Row className="topBox my-4">
+                <Col md="6">
+                    <h1 className=" fs-2">لیست مقالات</h1>
+                </Col>
+                <Col md="6" className="searchBox">
                     <input type="text" className="searchInput" onChange={(e)=>setSearchKey(e.target.value)}/>
                     <button className="searchButton" onClick={ () => searchHandler(searchKey)}>جست و جو</button>
-                </div>
-            </div>
+                </Col>
+            </Row>
             <Container>
                 <Row>
                     <Col xs={12} md={3} >
                         
-                        <Accordion  alwaysOpen>
+                        <Accordion  alwysOpen>
                             <Accordion.Item eventKey="0">
                                 <Accordion.Header> <FaSort fontSize="18px" className="sort-icons"/> مرتب سازی</Accordion.Header>
                                 <Accordion.Body>
