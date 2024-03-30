@@ -3,13 +3,14 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 40px;
+
 }
 
 .searchInput , .searchButton{
     all:unset;
     padding: 10px;
     border: 1px solid lightgray;
+    max-width: 130px;
 }
 .searchButton{
     background-color: lightgray;

@@ -81,13 +81,15 @@ function Courses(){
     }
     return(
         <>
-            <div className="topBox my-4">
-                <h1 className=" fs-2">لیست مقالات</h1>
-                <div className="searchBox">
+            <Row className="topBox my-4 justify-content-around p-1">
+                <Col md="6" className="px-lg-5 mb-3">
+                    <h1 className="fs-2 text-center text-md-start px-md-5">لیست مقالات</h1>
+                </Col>
+                <Col md="6" className="searchBox text-center text-lg-end px-lg-5">
                     <input type="text" className="searchInput" onChange={(e)=>setSearchKey(e.target.value)}/>
                     <button className="searchButton" onClick={ () => searchHandler(searchKey)}>جست و جو</button>
-                </div>
-            </div>
+                </Col>
+            </Row>
             <Container>
                 <Row>
                     <Col xs={12} md={3} >
