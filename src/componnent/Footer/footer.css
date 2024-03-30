@@ -3,11 +3,22 @@ footer{
 }
 .myfooter{
     background-color: #eee;
-    height: 60px;
+    min-height: 100px;
     position: relative;
+    z-index: 2;
+
 }
 svg.footersvg{
     position: relative;
-    top: 20px;
+    bottom: -5px;
+    color: #1548a7;
 }
 
+.myfooter .link-box{
+    text-align: center;
+}
+
+.myfooter .link-box a{
+    margin: 0px 5px;
+    font-family: lalezar;
+}
