@@ -166,7 +166,7 @@ function Courses(){
                                     value='completed'
                                     label = 'تکمیل شده'
                                     onChange={coursStateHandler}
-                                    checked={coursState == 'compeleted' ? true : false}
+                                    checked={coursState == 'completed' ? true : false}
                                 />
                                 <Form.Check
                                     type="switch"
